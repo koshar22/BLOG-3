@@ -1,0 +1,38 @@
+body {
+  background-color: #eee;
+  margin: 80px;
+}
+
+.main h1 {
+  text-transform: uppercase;
+  padding: 20px 400px 0px 80px;
+}
+
+.items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 50px auto 50px auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+  margin: 40px 80px 40px 80px;
+}
+.items div {
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 1px 1px 5px 2px #eee;
+          box-shadow: 1px 1px 5px 2px #eee;
+  background-color: #fff;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+.items div i {
+  font-size: 50px;
+  color: #4aaa9d;
+}
+.items div h2 {
+  text-transform: capitalize;
+  margin: 0%;
+}
+.items div p {
+  margin: 0%;
+  color: #746d6d;
+}
